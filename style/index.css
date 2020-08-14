@@ -1,1 +1,122 @@
-/* Add CSS styling here */
+/* 'Kaushan Script' for Headings and 'Slabo 27px' for main text. 
+font-family: 'Kaushan Script', cursive;
+font-family: 'Slabo 27px', serif;*/
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Slabo+27px&display=swap");
+html {
+  font-size: 67.5%;
+  color: #d1cdcb;
+  background-color: #253730;
+  font-family: "Slabo 27px", serif;
+}
+header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+h1 {
+  font-family: "Kaushan Script", cursive;
+  font-size: 3rem;
+}
+.navParent {
+  display: flex;
+  list-style: none;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+}
+.navParent li {
+  background-color: #7c8679;
+  padding: 1.5rem;
+  text-align: center;
+  border: solid #5d7061 0.5px;
+  width: 5rem;
+}
+/** for the active page **/
+.navParent .home {
+  background-color: #5d7061;
+  text-decoration: underline;
+}
+.navParent li a {
+  text-decoration: none;
+  color: #d1cdcb;
+  font-size: 1.4rem;
+}
+.hoverText {
+  background-image: url("https://images.unsplash.com/photo-1505851725259-f74b54f4ce6d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+  background-position: bottom;
+  background-size: cover;
+  padding: 13rem;
+  margin: 0 5rem;
+  display: flex;
+  flex-flow: column;
+  border-radius: 20px;
+}
+.hoverText h2 {
+  font-size: 5rem;
+  margin: 1rem auto;
+  font-family: "kaushan script", cursive;
+  text-shadow: 2px 2px #253730;
+}
+.hoverText .myProjects {
+  width: 10rem;
+  margin: 0 auto;
+  padding: 1.5rem;
+  background-color: rgba(147, 123, 123, 0.79);
+  border: none;
+  border-radius: 10px;
+  transition: ease-in 0.5sec;
+}
+.hoverText .myProjects:hover {
+  box-shadow: 0px 0px 6px #d1cdd1;
+}
+.hoverText .myProjects a {
+  color: #d1cdd1;
+  text-decoration: none;
+}
+.projectGrid {
+  display: flex;
+  margin: 3rem auto;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin: 2rem;
+}
+.projectGrid .projectThumbnail {
+  width: 25rem;
+  height: 28rem;
+}
+.projectGrid .projectThumbnail img {
+  width: 100%;
+  height: 85%;
+}
+
+.projectGrid .projectThumbnail p {
+  text-align: center;
+  font-size: 1.8rem;
+  margin: 1rem auto;
+}
+.footer {
+  width: 100%;
+  height: 8rem;
+  background-color: #a48c7c;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer .contactMe {
+  width: 10rem;
+  margin: 0 auto;
+  padding: 1.5rem;
+  background-color: #7c8679;
+  border: none;
+  border-radius: 10px;
+  transition: ease-in 0.5sec;
+}
+.footer .contactMe a {
+  text-decoration: none;
+  color: #d1cdd1;
+  text-shadow: 1px 1px #5d7061;
+}
+.footer .contactMe:hover {
+  box-shadow: 0px 0px 6px #11211d;
+}
