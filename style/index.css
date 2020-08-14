@@ -94,7 +94,7 @@ h1 {
   font-size: 1.8rem;
   margin: 1rem auto;
 }
-.footer {
+footer {
   width: 100%;
   height: 8rem;
   background-color: #a48c7c;
@@ -103,7 +103,7 @@ h1 {
   justify-content: center;
   align-items: center;
 }
-.footer .contactMe {
+footer .contactMe {
   width: 10rem;
   margin: 0 auto;
   padding: 1.5rem;
@@ -112,11 +112,11 @@ h1 {
   border-radius: 10px;
   transition: ease-in 0.5sec;
 }
-.footer .contactMe a {
+footer .contactMe a {
   text-decoration: none;
   color: #d1cdd1;
   text-shadow: 1px 1px #5d7061;
 }
-.footer .contactMe:hover {
+footer .contactMe:hover {
   box-shadow: 0px 0px 6px #11211d;
 }
