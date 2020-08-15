@@ -75,10 +75,10 @@ footer {
   background-color: #a48c7c;
   margin: 0;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
-footer .contactMe {
+footer button {
   width: 10rem;
   margin: 0 auto;
   padding: 1.5rem;
@@ -87,11 +87,11 @@ footer .contactMe {
   border-radius: 10px;
   transition: ease-in 0.5sec;
 }
-footer .contactMe a {
+footer button a {
   text-decoration: none;
   color: #d1cdd1;
   text-shadow: 1px 1px #5d7061;
 }
-footer .contactMe:hover {
+footer button:hover {
   box-shadow: 0px 0px 6px #11211d;
 }
