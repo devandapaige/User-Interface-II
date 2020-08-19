@@ -8,6 +8,11 @@ html {
   background-color: #253730;
   font-family: "Slabo 27px", serif;
 }
+@media only screen and (max-width: 600px) {
+
+
+  
+}
 header {
   display: flex;
   flex-flow: row nowrap;
@@ -43,6 +48,7 @@ h1 {
 }
 .hoverText {
   background-image: url("https://images.unsplash.com/photo-1505851725259-f74b54f4ce6d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+
   background-position: bottom;
   background-size: cover;
   padding: 13rem;
@@ -100,7 +106,8 @@ footer {
   background-color: #a48c7c;
   margin: 0;
   display: flex;
-  justify-content: center;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
   align-items: center;
 }
 footer .contactMe {
@@ -119,4 +126,19 @@ footer .contactMe a {
 }
 footer .contactMe:hover {
   box-shadow: 0px 0px 6px #11211d;
+
+}
+footer i{
+
+}
+
+.fab {
+  padding: 2rem;
+  font-size: 3rem;
+  color: #d1cdd1;
+}
+.fab:hover {
+  opacity: 0.5;
+  cursor: pointer;
+  text-shadow: 0px 0px 6px #11211d;
 }
