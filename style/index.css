@@ -8,8 +8,7 @@ html {
   background-color: #253730;
   font-family: "Slabo 27px", serif;
 }
-@media only screen and (max-width: 600px) {
-}
+
 header {
   display: flex;
   flex-flow: row nowrap;
@@ -138,4 +137,35 @@ footer div {
   opacity: 0.5;
   cursor: pointer;
   text-shadow: 0px 0px 6px #11211d;
+}
+@media only screen and (max-width: 500px) {
+  /* mobile */
+}
+@media only screen and (max-width: 800px) {
+  /* tablet */
+  header {
+    flex-flow: column nowrap;
+  }
+  h1 {
+    font-size: 4rem;
+  }
+  .navParent {
+    margin: 0 auto;
+  }
+  .hoverText {
+    margin: 0;
+    text-align: center;
+  }
+  .projectGrid {
+    margin: 0;
+  }
+  .projectGrid .projectThumbnail {
+    width: 45vw;
+    height: 50vh;
+    padding: 0;
+    margin: 0.2rem;
+  }
+}
+@media only speech and print {
+  /*to add additional input for just a printer friendly and text-to-speech page*/
 }
