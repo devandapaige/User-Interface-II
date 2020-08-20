@@ -63,16 +63,16 @@ h1 {
   width: 10rem;
   margin: 0 auto;
   padding: 1.5rem;
-  background-color: rgba(147, 123, 123, 0.79);
+  background-color: rgba(173, 216, 146, 0.84);
   border: none;
   border-radius: 10px;
   transition: ease-in 0.5sec;
 }
 .hoverText .myProjects:hover {
-  box-shadow: 0px 0px 6px #d1cdd1;
+  box-shadow: 0px 0px 6px #000000;
 }
 .hoverText .myProjects a {
-  color: #d1cdd1;
+  color: #000000;
   text-decoration: none;
 }
 .projectGrid {
@@ -99,11 +99,10 @@ h1 {
 footer {
   width: 100%;
   height: 8rem;
-  background-color: #a48c7c;
+  background-color: #000000;
   margin: 0;
   display: flex;
   flex-flow: row nowrap;
-  justify-content: flex-start;
   align-items: center;
 }
 footer .contactMe {
@@ -117,11 +116,11 @@ footer .contactMe {
 }
 footer .contactMe a {
   text-decoration: none;
-  color: #d1cdd1;
+  color: #ffffff;
   text-shadow: 1px 1px #5d7061;
 }
 footer .contactMe:hover {
-  box-shadow: 0px 0px 6px #11211d;
+  box-shadow: 0px 0px 6px #5d7061;
 }
 footer div {
   display: flex;
@@ -131,12 +130,12 @@ footer div {
 .fab {
   padding: 2rem;
   font-size: 3rem;
-  color: #d1cdd1;
+  color: #ffffff;
 }
 .fab:hover {
   opacity: 0.5;
   cursor: pointer;
-  text-shadow: 0px 0px 6px #11211d;
+  text-shadow: 0px 0px 6px #5d7061;
 }
 @media only screen and (max-width: 800px) {
   /* tablet */

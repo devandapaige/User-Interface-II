@@ -120,3 +120,63 @@ footer .contactMe a {
 footer .contactMe:hover {
   box-shadow: 0px 0px 6px #11211d;
 }
+footer div {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.fab {
+  padding: 2rem;
+  font-size: 3rem;
+  color: #d1cdd1;
+}
+.fab:hover {
+  opacity: 0.5;
+  cursor: pointer;
+  text-shadow: 0px 0px 6px #11211d;
+}
+@media only screen and (max-width: 800px) {
+  /* tablet */
+  header {
+    flex-flow: column nowrap;
+  }
+  h1 {
+    font-size: 4rem;
+  }
+  .navParent {
+    margin: 0 auto;
+    padding: 0;
+  }
+  .hoverText {
+    margin: 0;
+    text-align: center;
+    max-width: 100%;
+  }
+  .projectGrid {
+    margin: 0;
+  }
+  .projectGrid .projectThumbnail {
+    width: 45vw;
+    height: 50vh;
+    padding: 0;
+    margin: 0.2rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+  /* mobile */
+  .navParent {
+    flex-flow: column nowrap;
+    padding: 0;
+    margin: 0.5rem auto;
+  }
+  .navParent li {
+    width: 75vw;
+  }
+  .hoverText h2 {
+  font-size: 2.5rem;
+  padding: 0;
+  margin: 0.5rem auto;
+}
+@media only speech {
+  /*to add additional input for just a printer friendly and text-to-speech page*/
+}
