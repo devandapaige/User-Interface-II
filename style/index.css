@@ -3,7 +3,7 @@ font-family: 'Kaushan Script', cursive;
 font-family: 'Slabo 27px', serif;*/
 @import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Slabo+27px&display=swap");
 html {
-  font-size: 67.5%;
+  font-size: 62.5%;
   color: #d1cdcb;
   background-color: #253730;
   font-family: "Slabo 27px", serif;
@@ -103,12 +103,13 @@ footer {
   margin: 0;
   display: flex;
   flex-flow: row nowrap;
+  justify-content: space-between;
   align-items: center;
 }
 footer .contactMe {
   width: 10rem;
-  margin: 0 auto;
   padding: 1.5rem;
+  margin: 0 2rem;
   background-color: #7c8679;
   border: none;
   border-radius: 10px;
