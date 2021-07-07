@@ -8,7 +8,6 @@ html {
   background-color: #253730;
   font-family: "Slabo 27px", serif;
 }
-
 header {
   display: flex;
   flex-flow: row nowrap;
@@ -33,7 +32,7 @@ h1 {
   width: 5rem;
 }
 /** for the active page **/
-.navParent .home {
+.navParent .projects {
   background-color: #5d7061;
   text-decoration: underline;
 }
@@ -44,7 +43,6 @@ h1 {
 }
 .hoverText {
   background-image: url("https://images.unsplash.com/photo-1505851725259-f74b54f4ce6d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
-
   background-position: bottom;
   background-size: cover;
   padding: 13rem;
@@ -63,16 +61,16 @@ h1 {
   width: 10rem;
   margin: 0 auto;
   padding: 1.5rem;
-  background-color: rgba(173, 216, 146, 0.84);
+  background-color: rgba(147, 123, 123, 0.79);
   border: none;
   border-radius: 10px;
   transition: ease-in 0.5sec;
 }
 .hoverText .myProjects:hover {
-  box-shadow: 0px 0px 6px #000000;
+  box-shadow: 0px 0px 6px #d1cdd1;
 }
 .hoverText .myProjects a {
-  color: #000000;
+  color: #d1cdd1;
   text-decoration: none;
 }
 .projectGrid {

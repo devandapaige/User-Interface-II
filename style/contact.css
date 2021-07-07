@@ -8,7 +8,6 @@ html {
   background-color: #253730;
   font-family: "Slabo 27px", serif;
 }
-
 header {
   display: flex;
   flex-flow: row nowrap;
@@ -33,7 +32,7 @@ h1 {
   width: 5rem;
 }
 /** for the active page **/
-.navParent .home {
+.navParent .contact {
   background-color: #5d7061;
   text-decoration: underline;
 }
@@ -44,7 +43,6 @@ h1 {
 }
 .hoverText {
   background-image: url("https://images.unsplash.com/photo-1505851725259-f74b54f4ce6d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
-
   background-position: bottom;
   background-size: cover;
   padding: 13rem;
@@ -59,43 +57,18 @@ h1 {
   font-family: "kaushan script", cursive;
   text-shadow: 2px 2px #253730;
 }
-.hoverText .myProjects {
-  width: 10rem;
-  margin: 0 auto;
-  padding: 1.5rem;
-  background-color: rgba(173, 216, 146, 0.84);
-  border: none;
-  border-radius: 10px;
-  transition: ease-in 0.5sec;
-}
-.hoverText .myProjects:hover {
-  box-shadow: 0px 0px 6px #000000;
-}
-.hoverText .myProjects a {
-  color: #000000;
-  text-decoration: none;
-}
-.projectGrid {
+.mainText {
   display: flex;
-  margin: 3rem auto;
   flex-flow: row wrap;
-  justify-content: space-between;
-  margin: 2rem;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 3rem;
 }
-.projectGrid .projectThumbnail {
-  width: 25rem;
-  height: 28rem;
-}
-.projectGrid .projectThumbnail img {
-  width: 100%;
-  height: 85%;
+.mainText p {
+  width: 33%;
+  font-size: 1.5rem;
 }
 
-.projectGrid .projectThumbnail p {
-  text-align: center;
-  font-size: 1.8rem;
-  margin: 1rem auto;
-}
 footer {
   width: 100%;
   height: 8rem;
@@ -155,14 +128,13 @@ footer div {
     text-align: center;
     max-width: 100%;
   }
-  .projectGrid {
-    margin: 0;
-  }
-  .projectGrid .projectThumbnail {
-    width: 45vw;
-    height: 50vh;
-    padding: 0;
+  .mainText {
+    flex-flow: column wrap;
     margin: 0.2rem;
+  }
+  .mainText p {
+    width: 75%;
+    font-size: 1.7rem;
   }
 }
 @media only screen and (max-width: 500px) {
@@ -176,9 +148,14 @@ footer div {
     width: 75vw;
   }
   .hoverText h2 {
-  font-size: 2.5rem;
-  padding: 0;
-  margin: 0.5rem auto;
+    font-size: 2.5rem;
+    padding: 0;
+    margin: 0.5rem auto;
+  }
+  .mainText p {
+    width: 90%;
+    font-size: 1.6rem;
+  }
 }
 @media only speech {
   /*to add additional input for just a printer friendly and text-to-speech page*/
