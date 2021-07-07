@@ -32,7 +32,7 @@ h1 {
   width: 5rem;
 }
 /** for the active page **/
-.navParent .home {
+.navParent .projects {
   background-color: #5d7061;
   text-decoration: underline;
 }
